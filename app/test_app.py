@@ -1,7 +1,7 @@
 import os
 import sys
 
-# ضمان رؤية مسار التطبيق سواء تم التشغيل من المجلد الرئيسي أو الداخلي
+# إضافة المسار الحالي إلى مسارات بايثون لضمان التعرف على app.py مباشرة
 sys.path.insert(0, os.path.dirname(__file__))
 
 from app import app
